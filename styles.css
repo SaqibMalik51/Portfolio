@@ -133,7 +133,7 @@ body.black .header {
   margin: 20px 0 40px;
   line-height: 1.6;
   font-weight: 500;
-  max-width: 70vw;
+  max-width: 400px;
 }
 
 .skills-section {
@@ -271,6 +271,10 @@ i {
 
 .certs-div h2 {
   margin-top: 30px;
+}
+
+.certs-div p {
+  width: 80vw;
 }
 
 #certs {
