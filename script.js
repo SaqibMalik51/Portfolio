@@ -51,7 +51,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
           body.classList.add("black");
           button.classList.remove("dark-mode");
           button.classList.add("light-mode");
-          button.textContent = "☀️ Dark";
+          button.textContent = "☀️ Light";
       }
 
       isDarkMode = !isDarkMode;
