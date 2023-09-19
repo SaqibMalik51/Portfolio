@@ -49,7 +49,7 @@ body.black .header {
   color: inherit !important;
   border: none;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 15px;
   cursor: pointer;
   transition: background-color 1s ease, color 1s ease;
 }
@@ -59,7 +59,7 @@ body.black .header {
   color: inherit !important;
   border: none;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 15px;
   cursor: pointer;
   transition: background-color 1s ease, color 1s ease;
 }
