@@ -133,7 +133,7 @@ body.black .header {
   margin: 20px 0 40px;
   line-height: 1.6;
   font-weight: 500;
-  max-width: 400px;
+  max-width: 70vw;
 }
 
 .skills-section {
