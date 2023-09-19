@@ -48,9 +48,8 @@ body.black .header {
   background-color: inherit !important;
   color: inherit !important;
   border: none;
-  margin-left: -5px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
   transition: background-color 1s ease, color 1s ease;
 }
@@ -60,7 +59,7 @@ body.black .header {
   color: inherit !important;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
   transition: background-color 1s ease, color 1s ease;
 }
