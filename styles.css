@@ -81,7 +81,7 @@ body.black .header {
   font-weight: 600;
   color: gold;
   text-decoration: none;
-  margin-right: 4px;
+  margin-right: 2px;
   position: relative;
 }
 
@@ -91,7 +91,7 @@ body.black .header {
   height: 3px;
   background-color: gold;
   position: absolute;
-  bottom: -2px;
+  bottom: -5px;
   left: 0;
   transition: width 0.3s ease;
 }
