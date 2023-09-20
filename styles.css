@@ -2055,3 +2055,11 @@ textarea {
 	transform: scale(0.80);
 	z-index: 2;
 }
+
+footer {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background-color: rgb(46, 43, 43);
+	color: white;
+}
