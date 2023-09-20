@@ -2097,5 +2097,17 @@ footer {
 	padding: 20px;
 	background-color: rgb(46, 43, 43);
 	color: white;
-  text-decoration: none;
+	line-height: 1.5;
+}
+
+footer i {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.1s;
+	font-size: 15px;
+}
+
+footer i:hover {
+	color: gold;
 }
