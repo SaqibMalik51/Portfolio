@@ -135,6 +135,37 @@ body.black .header {
   max-width: 400px;
 }
 
+.about {
+	background-color: gold;
+	height: 100%;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 90px;
+}
+
+.about i {
+	font-size: 150px;
+	text-align: center;
+	justify-content: center;
+	cursor: pointer;
+	color: black;
+}
+
+.about i:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.about p {
+	text-align: center;
+	justify-content: center;	
+	font-size: 30px;
+	font-weight: 600;
+	color: black;
+}
+
 .skills-section {
   height: 100vh;
   width: 100vw;
