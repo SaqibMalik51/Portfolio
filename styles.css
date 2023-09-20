@@ -260,6 +260,11 @@ i {
   padding: 20px;
   border-radius: 10px;
   transition: .3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .certs-div h1 {
