@@ -279,6 +279,10 @@ i {
   margin: 0;
 }
 
+.certs-p {
+  width: 80%;
+}
+
 .cert-img {
   width: 50%;
   margin-top: 20px;
