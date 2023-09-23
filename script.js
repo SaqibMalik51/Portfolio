@@ -45,13 +45,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
           body.classList.remove("black");
           button.classList.remove("light-mode");
           button.classList.add("dark-mode");
-          button.textContent = "🌙";
+          button.innerHTML = "🌙<br>Dark";
       } else {
           // Switch to dark mode
           body.classList.add("black");
           button.classList.remove("dark-mode");
           button.classList.add("light-mode");
-          button.textContent = "☀️";
+          button.innerHTML = "☀️<br>Light";
       }
 
       isDarkMode = !isDarkMode;
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const email = formData.get("email");
       const message = formData.get("message");
       if (!name || !email || !message) {
-          alert("Please fill in all fields.");
+          alert("please fill in all fields.");
           return;
       }
       contactForm.reset();
