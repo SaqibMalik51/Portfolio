@@ -45,23 +45,21 @@ body.black .header {
 }
 
 .dark-mode {
-  background-color: inherit !important;
+  background-color: transparent !important;
   color: inherit !important;
   border: none;
   border-radius: 5px;
   font-size: 15px;
   cursor: pointer;
-  transition: background-color 1s ease, color 1s ease;
 }
 
 .light-mode {
-  background-color: inherit !important;
+  background-color: transparent !important;
   color: inherit !important;
   border: none;
   border-radius: 5px;
   font-size: 15px;
   cursor: pointer;
-  transition: background-color 1s ease, color 1s ease;
 }
 
 .logo-image-container {
